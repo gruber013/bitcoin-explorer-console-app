@@ -1,7 +1,7 @@
 from bitcoinrpc.authproxy import AuthServiceProxy
 
 def loginToRpc():
-    rpcHost="" #I could've make this input value as well but it's defined here for simplicity
+    rpcHost="" #I could've made this input value as well but it's defined here for simplicity
     rpcPort=""
     
     while True:
